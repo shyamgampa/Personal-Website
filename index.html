@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>personal website</title>
+    <link rel="icon" type="image/x-icon" href="img/myimg.jpg" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="portfolio-logo">𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤</a>
+      <i class="fa-solid fa-bars" id="menu-bar-icone"></i>
+      <nav class="navbar-container">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-container">
+        <h3>Hello, I am</h3>
+        <h1>Gampa Shyam</h1>
+        <h1>I'm a <span>Software Analyst</span></h1>
+        <p>
+          Bringing Designs to Life with Code and Creativity, Transforming Ideas
+          into Reality
+        </p>
+        <div class="socila-media-profile">
+          <a href=""
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <a href="https://drive.google.com/file/d/19gft2aVByfAJKtP5L5-EF6L-aSmklf-7/view?usp=sharing" class="button"
+          >Download Resume <i class="fa-solid fa-download"></i
+        ></a>
+      </div>
+      <div class="home-img">
+        <img src="img/myimg.jpg" alt="myImg" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          I am a hard-working and driven individual who isn't afraid to face a challenge.
+          I'm passionate about my work and I know how to get the job done. I would describe myself as an open and honest person who doesn't believe in misleading other people and tries to be fair in everything I do.
+          I’m a Software Analyst with skills are in HTML, CSS, JavaScript, Java.
+
+        </p>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="skill-container">
+        <h2 class="heading">Technical<span> Skills</span></h2>
+        <div class="skills-container">
+          <img
+            src="img/html.png"
+          />
+          <img
+            src="img/css.jpeg"
+          />
+          <img
+            src="img/js.jpeg"
+            alt="JavaScript"
+          />
+          <img src="img/download.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="services">
+      <h2 class="heading">My<span> Services</span></h2>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>VIDEO EDITOR</h3>
+          <p>
+            Video is the most popular content format in use right now. If you've used this format to present yourself, 
+            no matter your industry, it shows that you move with the times.
+             This adaptability is a big advantage in your favor.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            As a web developer, I create dynamic and functional websites using a
+            combination of front-end. I specialize in building responsive,
+            user-friendly interfaces that enhance the user experience. Whether
+            it’s an e-commerce site, a blog, or a custom web application, I
+            bring ideas to life through code.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>PHOTOSHOP</h3>
+          <p>
+            Photoshop is part of the Adobe Creative Cloud, which includes other popular tools such as Adobe Illustrator, 
+            Photoshop Lightroom and Adobe Dreamweaver. Photoshop Creative Cloud allows users to work on 
+            image and graphic content from anywhere.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="" method="POST">
+        <div class="input-card">
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Mail Id"
+            required
+          />
+        </div>
+
+        <div class="input-card">
+          <input
+            type="number"
+            placeholder="Enter Your Mobile Number"
+            required
+            name="number"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Enter Subject Of The Mail"
+            required
+          />
+        </div>
+
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Message Here..."
+        ></textarea>
+        <a href="https://img.freepik.com/free-vector/thank-you-lettering_1262-6963.jpg" class="button" type="submit">Submit</a>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p>
+          Copyright &copy; 2024 by Shyam Gampa
+        </p>
+      </div>
+
+      <div class="footer-icons">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
